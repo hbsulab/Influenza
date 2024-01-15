@@ -15,6 +15,20 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+<br>
+<hr>
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+<br>
+<hr>
+
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
@@ -40,14 +54,6 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
-
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
 
     <!-- Latest posts -->
     {% if page.latest_posts %}

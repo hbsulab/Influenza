@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: 2021
+description: Leading Mutation of 2021
+img: 
 importance: 2
-category: work
-giscus_comments: true
+category: 
+related_publications: false
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

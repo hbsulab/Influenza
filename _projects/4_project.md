@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: 2019
+description: Leading Mutation of 2019
 img:
 importance: 3
-category: fun
+category: 
+related_publications: false
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

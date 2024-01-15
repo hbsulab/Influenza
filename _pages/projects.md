@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Leading Mutations
+permalink: /Leading Mutations/
+description: Each year's leading mutation information and analysis.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: 
 horizontal: false
 ---
 

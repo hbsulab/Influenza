@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: 2018
+description: Leading Mutation of 2018
+img: 
 importance: 3
-category: fun
+category: 
+related_publications: false
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

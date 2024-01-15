@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: 2022
+description: Leading Mutation of 2022
+img: 
 importance: 1
-category: work
-related_publications: true
+category: 
+related_publications: false
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.
